@@ -3,11 +3,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
-<link href="../font/fontawesome/css/all.min.css" rel="stylesheet">
-<link href="../bootstrap/tiny-slider.css" rel="stylesheet">
-<link href="../css/header.css" rel="stylesheet">
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="../favicon.png">
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+<link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/header.css" rel="stylesheet">
 <title>Furni</title>
 </head>
 <body>
@@ -35,9 +40,9 @@
 				</ul>
 				<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
 					<li><a class="nav-link" href="#"><img
-							src="../images/user.svg"></a></li>
+							src="${pageContext.request.contextPath}/images/user.svg"></a></li>
 					<li><a class="nav-link" href="cart.html"><img
-							src="../images/cart.svg"></a></li>
+							src="${pageContext.request.contextPath}/images/cart.svg"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -57,22 +62,23 @@
 							Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor
 							tempor tristique.</p>
 						<p>
-							<a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#"
+							<a href="#" class="btn btn-secondary me-2">Shop Now</a><a href="#"
 								class="btn btn-white-outline">Explore</a>
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-7 col-md-12">
 					<div class="hero-img-wrap">
-						<img src="../images/couch.png" class="img-fluid">
+					
+						<img src="${pageContext.request.contextPath}/images/couch.png" class="img-fluid">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- End Slider Section -->
-	<script src="../js/bootstrap.bundle.min.js"></script>
-	<script src="../js/tiny-slider.js"></script>
-	<script src="../js/custom.js"></script>
+	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
+	<script src="${pageContext.request.contextPath}/js/tiny-slider.js"></script>
+	<script src="${pageContext.request.contextPath}/js/custom.js"></script>
 </body>
 </html>
