@@ -3,11 +3,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
-<link href="../font/fontawesome/css/all.min.css" rel="stylesheet">
-<link href="../bootstrap/tiny-slider.css" rel="stylesheet">
-<link href="../css/footer.css" rel="stylesheet">
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="../favicon.png">
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+<link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/footer.css" rel="stylesheet">
 <title>Furni</title>
 </head>
 <body>
@@ -16,14 +21,14 @@
 		<div class="container relative">
 
 			<div class="sofa-img">
-				<img src="../images/sofa.png" alt="Image" class="img-fluid">
+				<img src="${pageContext.request.contextPath}/images/sofa.png" alt="Image" class="img-fluid">
 			</div>
 
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="subscription-form">
 						<h3 class="d-flex align-items-center">
-							<span class="me-1"><img src="../images/envelope-outline.svg"
+							<span class="me-1"><img src="${pageContext.request.contextPath}/images/envelope-outline.svg"
 								alt="Image" class="img-fluid"></span><span>Subscribe to
 								Newsletter</span>
 						</h3>
@@ -59,7 +64,7 @@
 						Pellentesque habitant</p>
 
 					<ul class="list-unstyled custom-social">
-						<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-brands fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-brands fa-twitter"></i></a></li>
 						<li><a href="#"><i class="fa fa-brands fa-instagram"></i></a></li>
 						<li><a href="#"><i class="fa fa-brands fa-linkedin"></i></a></li>
@@ -135,8 +140,8 @@
 	</footer>
 	<!-- End Footer Section -->
 
-	<script src="../js/bootstrap.bundle.min.js"></script>
-	<script src="../js/tiny-slider.js"></script>
-	<script src="../js/custom.js"></script>
+	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
+	<script src="${pageContext.request.contextPath}/js/tiny-slider.js"></script>
+	<script src="${pageContext.request.contextPath}/js/custom.js"></script>
 </body>
 </html>

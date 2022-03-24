@@ -1,8 +1,11 @@
+@charset "UTF-8";
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 body {
   overflow-x: hidden;
   position: relative;
+  box-sizing: border-box;
 }
 
 body {
@@ -124,11 +127,21 @@ a.more {
 
 .btn {
   font-weight: 600;
-  padding: 12px 30px;
-  border-radius: 30px;
-  color: #ffffff;
-  background: #2f2f2f;
-  border-color: #2f2f2f;
+        padding: 12px 30px;
+        border-radius: 30px;
+        color: #ffffff;
+        background: #2f2f2f;
+        border-color: #2f2f2f;
+        outline: none !important;
+        box-shadow: none;
+        display: inline-block;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        font-size: 1rem;
+        border: 1px solid transparent;
 }
 
 .btn:hover {
@@ -217,7 +230,6 @@ a.more {
 
 .hero p {
   color: rgba(255, 255, 255, 0.5);
-  margin-botom: 30px;
 }
 
 .hero .hero-img-wrap {
@@ -271,5 +283,3 @@ a.more {
     display: none;
   }
 }
-
-/*# sourceMappingURL=header.css.map */
