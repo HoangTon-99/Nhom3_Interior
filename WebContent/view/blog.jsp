@@ -14,7 +14,7 @@
 <link href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" rel="stylesheet">
 </head>
 <body>
-			
+		<jsp:include page="header.jsp" />	
 	<main class="container mt-5">
 		<div class="row main-blog">
 			<div class="col-12  col-md-4 mb-5">
@@ -100,6 +100,7 @@
 			</div>
 		</div>
 	</main>
+	<jsp:include page="footer.jsp" />
 </body>
 				
 	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
