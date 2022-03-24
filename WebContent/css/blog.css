@@ -272,14 +272,19 @@ a.more {
   }
 
 }
+
 main .main-blog{
 	display: flex;
 	justify-content: space-between;
 }
-
+main .main-blog .col-md-4 .card{
+  border: #3b5d50 solid 1px;
+  border-radius: 15px;
+}
 main .main-blog .col-md-4 .card-img-top{
 	padding: 3%;
 	border-radius: 20px;
+
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 body {
