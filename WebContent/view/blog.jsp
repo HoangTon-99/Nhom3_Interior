@@ -12,98 +12,127 @@
 <link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" rel="stylesheet">
-</head>
-<body>
-		<jsp:include page="header.jsp" />	
-	<main class="container mt-5">
-		<div class="row main-blog">
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				  <img src="${pageContext.request.contextPath}/images/post-1.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">First Time Home Owner Ideas
-					by Kristin Watson on Dec 19, 2021</h6>
-				  </div>
-				</div>
-			</div>
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				  <img src="${pageContext.request.contextPath}/images/post-2.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">How To Keep Your Furniture Clean
-					by Robert Fox on Dec 15, 2021</h6>
-				  </div>
-				</div>
-			</div>
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				  <img src="${pageContext.request.contextPath}/images/post-3.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">Small Space Furniture Apartment Ideas
-					by Kristin Watson on Dec 12, 2021</h6>
-				  </div>
-				</div>
-			</div>
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				  <img src="${pageContext.request.contextPath}/images/post-1.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">First Time Home Owner Ideas
-					by Kristin Watson on Dec 19, 2021</h6>
-				  </div>
-				</div>
-			</div>
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				  <img src="${pageContext.request.contextPath}/images/post-2.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">How To Keep Your Furniture Clean
-					by Robert Fox on Dec 15, 2021</h6>
-				  </div>
-				</div>
-			</div>
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				  <img src="${pageContext.request.contextPath}/images/post-3.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">Small Space Furniture Apartment Ideas
-					by Kristin Watson on Dec 12, 2021</h6>
-				  </div>
-				</div>
-			</div>
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				  <img src="${pageContext.request.contextPath}/images/post-1.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">First Time Home Owner Ideas
-					by Kristin Watson on Dec 19, 2021</h6>
-				  </div>
-				</div>
-			</div>
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				 <img src="${pageContext.request.contextPath}/images/post-2.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">How To Keep Your Furniture Clean
-					by Robert Fox on Dec 15, 2021</h6>
-				  </div>
-				</div>
-			</div>
-			<div class="col-12  col-md-4 mb-5">
-				<div class="card">
-				 <img src="${pageContext.request.contextPath}/images/post-3.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h6 class="card-title">Small Space Furniture Apartment Ideas
-					by Kristin Watson on Dec 12, 2021</h6>
-				  </div>
-				</div>
-			</div>
-		</div>
-	</main>
-	<jsp:include page="footer.jsp" />
-</body>
-				
-	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
-	<script src="${pageContext.request.contextPath}/js/tiny-slider.js"></script>
-	<script src="${pageContext.request.contextPath}/js/custom.js"></script>
-</html>
+     </head>
+  
+      <body>
+                     <jsp:include page="header.jsp" />
+          <div class="blog-section">
+              <div class="container">
+                  
+                  <div class="row">
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-1.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">First Time Home Owner Ideas</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-2.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-3.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-1.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">First Time Home Owner Ideas</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-2.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-3.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-1.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">First Time Home Owner Ideas</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-2.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="col-12 col-sm-6 col-md-4 mb-5">
+                          <div class="post-entry">
+                              <a href="#" class="post-thumbnail"> <img src="${pageContext.request.contextPath}/images/post-3.jpg" alt="Image" class="img-fluid"></a>
+                              <div class="post-content-entry">
+                                  <h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+                                  <div class="meta">
+                                      <span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <jsp:include page="footer.jsp" />
+          <script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
+          <script src="${pageContext.request.contextPath}/js/tiny-slider.js"></script>
+          <script src="${pageContext.request.contextPath}/js/custom.js"></script>
+  </html>
