@@ -10,10 +10,10 @@
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.png">
 <meta name="description" content="" />
 <meta name="keywords" content="bootstrap, bootstrap5" />
-<link href="${pageContext.request.contextPath}/css/index.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/index.css" rel="stylesheet">
 
 
 <title>Furni</title>

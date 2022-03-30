@@ -180,7 +180,7 @@ a.more {
 	position: absolute;
 	width: 255px;
 	height: 217px;
-	background-image: url("../images/dots-light.svg");
+	background-image: url("${pageContext.request.contextPath}/images/dots-light.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	right: -40px;
@@ -322,7 +322,7 @@ a.more {
 	content: "";
 	width: 255px;
 	height: 217px;
-	background-image: url("../images/dots-yellow.svg");
+	background-image: url("${pageContext.request.contextPath}/images/dots-yellow.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	transform: translate(-40%, -30%);
@@ -396,7 +396,7 @@ a.more {
 	content: "";
 	width: 255px;
 	height: 217px;
-	background-image: url("../images/dots-green.svg");
+	background-image: url("${pageContext.request.contextPath}/images/dots-green.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	transform: translate(-40%, -40%);
@@ -629,4 +629,7 @@ a.more {
 .testimonial-slider-wrap .tns-nav button:hover:before,
 	.testimonial-slider-wrap .tns-nav button.tns-nav-active:before {
 	background-color: #3b5d50;
+}
+.fa-linkedin,.fa-facebook,.fa-instagram,.fa-twitter {
+    color: #3b5998;
 }
