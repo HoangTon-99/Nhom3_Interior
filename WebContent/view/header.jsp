@@ -7,19 +7,19 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Untree.co">
-<link rel="shortcut icon" href="../favicon.png">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.png">
 <meta name="description" content="" />
 <meta name="keywords" content="bootstrap, bootstrap5" />
 <link
-	href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css"
+	href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" type="text/css"
 	rel="stylesheet">
 <link
-	href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css"
+	href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" type="text/css"
 	rel="stylesheet">
 <link
-	href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css"
+	href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" type="text/css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/css/header.css"
+<link href="${pageContext.request.contextPath}/css/header.css" type="text/css"
 	rel="stylesheet">
 <title>Furni</title>
 </head>
@@ -111,16 +111,13 @@
 					</p>
 					<hr />
 					<button type="button" class="btn -box-sd-effect">
-						<i class="fa-brands fa-google fa-lg"></i> sign up with
-						google
+						<i class="fa-brands fa-google fa-lg"></i> sign up with google
 					</button>
 					<button type="button" class="btn -box-sd-effect">
-						<i class="fa-brands fa-linkedin fa-lg"></i> sign up with
-						linkedin
+						<i class="fa-brands fa-linkedin fa-lg"></i> sign up with linkedin
 					</button>
 					<button type="button" class="btn -box-sd-effect">
-						<i class="fa-brands fa-windows fa-lg"></i> sign up with
-						microsoft
+						<i class="fa-brands fa-windows fa-lg"></i> sign up with microsoft
 					</button>
 				</form>
 			</div>
@@ -137,24 +134,20 @@
 					</p>
 					<hr />
 					<button type="button" class="btn -box-sd-effect">
-						<i class="fa-brands fa-google fa-lg"></i> sign up with
-						google
+						<i class="fa-brands fa-google fa-lg"></i> sign up with google
 					</button>
 					<button type="button" class="btn -box-sd-effect">
-						<i class="fa-brands fa-linkedin fa-lg"></i> sign up with
-						linkedin
+						<i class="fa-brands fa-linkedin fa-lg"></i> sign up with linkedin
 					</button>
 					<button type="button" class="btn -box-sd-effect">
-						<i class="fa-brands fa-windows fa-lg"></i> sign up with
-						microsoft
+						<i class="fa-brands fa-windows fa-lg"></i> sign up with microsoft
 					</button>
 				</form>
 			</div>
 		</div>
 	</div>
-	<!-- End Slider Section -->
-	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
-	<script src="${pageContext.request.contextPath}/js/tiny-slider.js"></script>
-	<script src="${pageContext.request.contextPath}/js/custom.js"></script>
+	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<script src="${pageContext.request.contextPath}/js/tiny-slider.js" type="text/javascript"></script>
+	<script src="${pageContext.request.contextPath}/js/custom.js" type="text/javascript"></script>
 </body>
 </html>

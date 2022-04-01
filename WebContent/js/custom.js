@@ -11,10 +11,10 @@
 				axis: "horizontal",
 				controlsContainer: "#testimonial-nav",
 				swipeAngle: false,
-				speed: 700,
+				speed: 300,
 				nav: true,
 				controls: true,
-				autoplay: false,
+				autoplay: true,
 				autoplayHoverPause: true,
 				autoplayTimeout: 3500,
 				autoplayButtonOutput: false
@@ -22,9 +22,6 @@
 		}
 	};
 	tinyslider();
-
-	
-
 
 	var sitePlusMinus = function() {
 
@@ -68,8 +65,6 @@
 		
 	};
 	sitePlusMinus();
-
-
 })()
 
 function toggleSignup() {
