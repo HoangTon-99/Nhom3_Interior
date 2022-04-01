@@ -9,10 +9,9 @@
 	<link rel="shortcut icon" href="../favicon.png">
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
-<link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
-<link href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" rel="stylesheet">
-<link href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" rel="stylesheet">
-<link href="${pageContext.request.contextPath}/css/footer.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/footer.css" type="text/css" rel="stylesheet">
 <title>Furni</title>
 </head>
 <body>
@@ -140,8 +139,6 @@
 	</footer>
 	<!-- End Footer Section -->
 
-	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
-	<script src="${pageContext.request.contextPath}/js/tiny-slider.js"></script>
-	<script src="${pageContext.request.contextPath}/js/custom.js"></script>
+	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 </body>
 </html>

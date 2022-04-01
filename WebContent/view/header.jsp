@@ -16,9 +16,6 @@
 <link
 	href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" type="text/css"
 	rel="stylesheet">
-<link
-	href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" type="text/css"
-	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/css/header.css" type="text/css"
 	rel="stylesheet">
 <title>Furni</title>
@@ -40,7 +37,7 @@
 			<div class="collapse navbar-collapse" id="navbarsFurni">
 				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
 					<li class="nav-item active"><a class="nav-link"
-						href="index.html">Home</a></li>
+						href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
 					<li><a class="nav-link"
 						href="${pageContext.request.contextPath}/view/shop.jsp">Shop</a></li>
 					<li><a class="nav-link"
@@ -147,7 +144,6 @@
 		</div>
 	</div>
 	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-	<script src="${pageContext.request.contextPath}/js/tiny-slider.js" type="text/javascript"></script>
 	<script src="${pageContext.request.contextPath}/js/custom.js" type="text/javascript"></script>
 </body>
 </html>

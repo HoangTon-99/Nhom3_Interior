@@ -12,15 +12,15 @@
 <meta name="keywords" content="bootstrap, bootstrap5" />
 <link
 	href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css"
-	rel="stylesheet">
+	rel="stylesheet" type="text/css">
 <link
 	href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css"
-	rel="stylesheet">
+	rel="stylesheet" type="text/css">
 <link
 	href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css"
-	rel="stylesheet">
+	rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/css/testimonials.css"
-	rel="stylesheet">
+	rel="stylesheet" type="text/css">
 <title>Furni</title>
 </head>
 <body>
@@ -127,9 +127,8 @@
 		</div>
 	</div>
 	<!-- End Testimonial Slider -->
-	<script
-		src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
-	<script src="${pageContext.request.contextPath}/js/tiny-slider.js"></script>
-	<script src="${pageContext.request.contextPath}/js/custom.js"></script>
+	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<script src="${pageContext.request.contextPath}/js/tiny-slider.js" type="text/javascript"></script>
+	<script src="${pageContext.request.contextPath}/js/custom.js" type="text/javascript"></script>
 </body>
 </html>

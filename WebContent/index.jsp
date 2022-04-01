@@ -10,12 +10,9 @@
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.png">
 <meta name="description" content="" />
 <meta name="keywords" content="bootstrap, bootstrap5" />
-<link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
-<link href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" rel="stylesheet">
-<link href="${pageContext.request.contextPath}/bootstrap/tiny-slider.css" rel="stylesheet">
-<link href="${pageContext.request.contextPath}/css/index.css" rel="stylesheet">
-
-
+<link href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/css/index.css" rel="stylesheet" type="text/css">
 <title>Furni</title>
 </head>
 <body>
@@ -240,7 +237,7 @@
 
 	<jsp:include page="view/footer.jsp" />
 
-	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
+	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 	
 </body>
 </html>

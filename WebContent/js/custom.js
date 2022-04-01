@@ -11,7 +11,7 @@
 				axis: "horizontal",
 				controlsContainer: "#testimonial-nav",
 				swipeAngle: false,
-				speed: 300,
+				speed: 700,
 				nav: true,
 				controls: true,
 				autoplay: true,
