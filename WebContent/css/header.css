@@ -343,6 +343,7 @@ a.more {
 .form-modal .login:hover,
 .form-modal .signup:hover {
   background: #222;
+  color: #fff;
 }
 
 .form-toggle {
@@ -487,3 +488,21 @@ a.more {
     height: 100vh;
   }
 }
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 200;
+    border-radius: 50% !important;
+    background: #ccc;
+    border: none;
+    outline: none;
+}
+  
+  .btn-back-to-top:hover {
+    background-color: #ececec;
+    color: black;
+    border: none;
+  }

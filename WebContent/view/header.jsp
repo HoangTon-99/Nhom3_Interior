@@ -23,28 +23,20 @@
 <body>
 	<!-- Start Header/Navigation -->
 	<nav
-		class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
-		arial-label="Furni navigation bar">
+		class="custom-navbar navbar navbar navbar-expand-md navbar-dark" arial-label="Furni navigation bar">
 		<div class="container">
 			<a class="navbar-brand"
 				href="${pageContext.request.contextPath}/index.jsp">Furni<span>.</span></a>
-			<button class="navbar-toggler" type="button"
-				data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
-				aria-controls="navbarsFurni" aria-expanded="false"
-				aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarsFurni">
 				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-					<li class="nav-item active"><a class="nav-link"
+					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
-					<li><a class="nav-link"
-						href="${pageContext.request.contextPath}/view/shop.jsp">Shop</a></li>
 					<li><a class="nav-link"
 						href="${pageContext.request.contextPath}/view/about.jsp">About
 							us</a></li>
-					<li><a class="nav-link"
-						href="${pageContext.request.contextPath}/view/services.jsp">Services</a></li>
 					<li><a class="nav-link"
 						href="${pageContext.request.contextPath}/view/blog.jsp">Blog</a></li>
 					<li><a class="nav-link"
@@ -61,6 +53,11 @@
 		</div>
 	</nav>
 	<!-- End Header/Navigation -->
+
+	<!-- Back button -->
+	<button type="button" class="btn-danger btn-floating btn-back-to-top btn-lg">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
 	<!-- Start Slider Section -->
 	<div class="hero">
@@ -97,12 +94,13 @@
 				<button id="login-toggle" onclick="toggleLogin()">log in</button>
 				<button id="signup-toggle" onclick="toggleSignup()">sign up</button>
 			</div>
-
+			
 			<div id="login-form">
-				<form>
-					<input type="text" placeholder="Enter email or username" /> <input
-						type="password" placeholder="Enter password" />
-					<button type="button" class="btn login">login</button>
+				<input type="hidden" id="login" value="<%= request.getAttribute("login") %>">
+				<form action="LoginServlet" method="post">
+					<input type="email" name="email" placeholder="Enter email or username" />
+					 <input type="password" name="password" placeholder="Enter password" />
+					<button type="submit" class="btn login">login</button>
 					<p>
 						<a href="javascript:void(0)">Forgotten account</a>
 					</p>
@@ -120,11 +118,13 @@
 			</div>
 
 			<div id="signup-form">
-				<form action="">
-					<input type="email" placeholder="Enter your email" /> <input
-						type="text" placeholder="Choose username" /> <input
-						type="password" placeholder="Create password" />
-					<button type="button" class="btn signup">create account</button>
+			<input type="hidden" id="register" value="<%= request.getAttribute("register") %>">
+				<form action="RegisterServlet" method="post">
+					<input type="email" name="emailAcc" placeholder="Enter your email" />
+					 <input
+						type="text" name="usernameAcc" placeholder="Choose username" />
+						 <input type="password" name="passwordAcc" placeholder="Create password" />
+					<button type="submit" class="btn signup">create account</button>
 					<p>
 						Clicking <strong>create account</strong> means that you are agree
 						to our <a href="javascript:void(0)">terms of services</a>.
@@ -143,7 +143,10 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" type="text/javascript"></script>
+	<script src="${pageContext.request.contextPath}/js/jquery.js" type="text/javascript"></script>
 	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 	<script src="${pageContext.request.contextPath}/js/custom.js" type="text/javascript"></script>
+	
 </body>
 </html>

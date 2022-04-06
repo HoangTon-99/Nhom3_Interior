@@ -1,3 +1,19 @@
+//alert
+var register = document.getElementById("register").value;
+		if(register == "success"){
+			swal("Congratulation","Account Created Successfully","success");
+		}
+		if(register == "failed"){
+			swal("Sorry","Wrong Account","error");
+		}
+var login = document.getElementById("login").value;
+		if(login == "success"){
+			swal("Congratulation","login Successfully","success");
+		}
+		if(login == "failed"){
+			swal("Sorry","Wrong email or password","error");
+		}
+		
 (function() {
 	'use strict';
 
@@ -101,3 +117,24 @@ window.onclick = function (event) {
 		modal.style.display = "none";
 	}
 }
+
+//back button
+$(document).ready(function () {
+    //back button
+    $('.btn-back-to-top').hide();
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 200) {
+					$('.btn-back-to-top').fadeIn(500);
+				} else {
+					$('.btn-back-to-top').fadeOut(500);
+				}
+			});
+			$('.btn-back-to-top').click(function () {
+				$("html").animate({
+					scrollTop: 0
+				},0);
+			});
+})
+
+
+		
