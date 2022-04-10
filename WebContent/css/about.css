@@ -1,4 +1,22 @@
 @charset "UTF-8";
+
+
+a {
+  text-decoration: none;
+  transition: .3s all ease;
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+
+a.more {
+  font-weight: 600;
+}
+
 .why-choose-section {
   padding-top: 7rem;
 }
@@ -69,3 +87,5 @@
 .untree_co-section {
   padding: 7rem 0;
 }
+
+

@@ -11,6 +11,7 @@
 	href="${pageContext.request.contextPath}/favicon.png">
 <meta name="description" content="" />
 <meta name="keywords" content="bootstrap, bootstrap5" />
+
 <link
 	href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css"
 	rel="stylesheet" type="text/css">
@@ -138,15 +139,9 @@
         </div>
     </div>
     <!-- End Blog Section -->	
-	
-
 	<jsp:include page="testimonials.jsp" />
 
 	<jsp:include page="footer.jsp" />
-
-	<script
-		src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"
-		type="text/javascript"></script>
 
 </body>
 </html>

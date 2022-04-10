@@ -127,8 +127,6 @@
 		</div>
 	</div>
 	<!-- End Testimonial Slider -->
-	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 	<script src="${pageContext.request.contextPath}/js/tiny-slider.js" type="text/javascript"></script>
-	<script src="${pageContext.request.contextPath}/js/custom.js" type="text/javascript"></script>
 </body>
 </html>

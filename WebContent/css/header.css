@@ -127,33 +127,21 @@ a.more {
 
 .btn {
   font-weight: 600;
-        padding: 12px 30px;
-        border-radius: 30px;
-        color: #ffffff;
-        background: #2f2f2f;
-        border-color: #2f2f2f;
-        outline: none !important;
-        box-shadow: none;
-        display: inline-block;
-        line-height: 1.5;
-        text-align: center;
-        text-decoration: none;
-        vertical-align: middle;
-        cursor: pointer;
-        font-size: 1rem;
-        border: 1px solid transparent;
-}
-
-.btn:hover {
+  padding: 12px 30px;
+  border-radius: 30px;
   color: #ffffff;
-  background: #222222;
-  border-color: #222222;
-}
-
-.btn:active,
-.btn:focus {
+  background: #2f2f2f;
+  border-color: #2f2f2f;
   outline: none !important;
   box-shadow: none;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid transparent;
 }
 
 .btn.btn-primary {
@@ -187,7 +175,6 @@ a.more {
   border-color: white;
   color: #ffffff;
 }
-
 .hero {
   background: #3b5d50;
   padding: calc(4rem - 30px) 0 0rem 0;
@@ -321,7 +308,7 @@ a.more {
   transition: 0.2s;
 }
 
-.form-modal .btn {
+.form-modal .btn-form  {
   border-radius: 20px;
   border: none;
   font-weight: bold;
@@ -489,20 +476,3 @@ a.more {
   }
 }
 
-.btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    z-index: 200;
-    border-radius: 50% !important;
-    background: #ccc;
-    border: none;
-    outline: none;
-}
-  
-  .btn-back-to-top:hover {
-    background-color: #ececec;
-    color: black;
-    border: none;
-  }

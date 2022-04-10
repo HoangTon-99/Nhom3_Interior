@@ -42,7 +42,7 @@
 									placeholder="Enter your email">
 							</div>
 							<div class="col-auto">
-								<button class="btn btn-primary">
+								<button class="btn Btn btn-primary">
 									<span class="fa fa-paper-plane"></span>
 								</button>
 							</div>
@@ -136,8 +136,13 @@
 
 		</div>
 	</footer>
+	<!-- Back button -->
+	<button type="button" class="btn-danger btn-floating btn-back-to-top btn-lg">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 	<!-- End Footer Section -->
-
-	<script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+			<script src="${pageContext.request.contextPath}/js/jquery.js" type="text/javascript"></script>
+		<script src="${pageContext.request.contextPath}/js/custom.js" type="text/javascript"></script>
+		
 </body>
 </html>

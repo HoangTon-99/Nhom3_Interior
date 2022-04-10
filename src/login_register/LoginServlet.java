@@ -12,7 +12,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+
 
 
 /**
@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
 		RequestDispatcher dispatcher = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/noithat3s?useSSL=false","root","");
+			Connection con = DriverManager.getConnection("jdbc:mysql://node30258-noithat3s.proen.app.ruk-com.cloud/noithat3s?useSSL=false","root","XKDgaf21326");
 			PreparedStatement pst = con.prepareStatement("select * from user where email = ? and password = ?");
 			pst.setString(1, uemail);
 			pst.setString(2, upass);

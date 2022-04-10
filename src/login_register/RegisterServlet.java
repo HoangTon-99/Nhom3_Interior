@@ -1,7 +1,6 @@
 package login_register;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -49,7 +48,7 @@ public class RegisterServlet extends HttpServlet {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/noithat3s?useSSL=false","root","");
+			con = DriverManager.getConnection("jdbc:mysql://node30258-noithat3s.proen.app.ruk-com.cloud/noithat3s?useSSL=false","root","XKDgaf21326");
 			PreparedStatement pst = con.prepareStatement("insert into user(email,username,password) values(?,?,?) ");
 			pst.setString(1, uemail);
 			pst.setString(2, uname);

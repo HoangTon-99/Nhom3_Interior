@@ -15,8 +15,10 @@
 <link
 	href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css"
 	rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/css/about.css"
+	
+	<link href="${pageContext.request.contextPath}/css/about.css"
 	rel="stylesheet" type="text/css">
+
 
 </head>
 
@@ -96,7 +98,6 @@
     <!-- Start Team Section -->
     <div class="untree_co-section">
         <div class="container">
-
             <div class="row mb-5">
                 <div class="col-lg-5 mx-auto text-center">
                     <h2 class="section-title">Our Team</h2>
@@ -165,9 +166,6 @@
     <!-- End Team Section -->
 	<jsp:include page="testimonials.jsp" />
 	<jsp:include page="footer.jsp" />
-	<script
-		src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"
-		type="text/javascript"></script>
 </body>
 
 </html>

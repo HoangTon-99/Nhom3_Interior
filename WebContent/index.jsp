@@ -12,11 +12,11 @@
 <meta name="description" content="" />
 <meta name="keywords" content="bootstrap, bootstrap5" />
 <link
-	href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css"
-	rel="stylesheet" type="text/css">
+	href="${pageContext.request.contextPath}/bootstrap/bootstrap.min.css" type="text/css"
+	rel="stylesheet">
 <link
-	href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css"
-	rel="stylesheet" type="text/css">
+	href="${pageContext.request.contextPath}/font/fontawesome/css/all.min.css" type="text/css"
+	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/css/index.css"
 	rel="stylesheet" type="text/css">
 <title>Furni</title>
@@ -35,12 +35,12 @@
 						Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor
 						tempor tristique.</p>
 					<p class="btn-md-centrer">
-						<a href="shop.html" class="btn">Explore</a>
+						<a href="${pageContext.request.contextPath}/view/cart.jsp" class="btn Btn">Explore</a>
 					</p>
 				</div>
 
 				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-					<a class="product-item" href="cart.html"> <img
+					<a class="product-item" href="${pageContext.request.contextPath}/view/cart.jsp"> <img
 						src="${pageContext.request.contextPath}/images/product-1.png"
 						class="img-fluid product-thumbnail">
 						<h3 class="product-title">Nordic Chair</h3> <strong
@@ -52,7 +52,7 @@
 				</div>
 
 				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-					<a class="product-item" href="cart.html"> <img
+					<a class="product-item" href="${pageContext.request.contextPath}/view/cart.jsp"> <img
 						src="${pageContext.request.contextPath}/images/product-2.png"
 						class="img-fluid product-thumbnail">
 						<h3 class="product-title">Kruzo Aero Chair</h3> <strong
@@ -64,7 +64,7 @@
 				</div>
 
 				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-					<a class="product-item" href="cart.html"> <img
+					<a class="product-item" href="${pageContext.request.contextPath}/view/cart.jsp"> <img
 						src="${pageContext.request.contextPath}/images/product-3.png"
 						class="img-fluid product-thumbnail">
 						<h3 class="product-title">Ergonomic Chair</h3> <strong
@@ -192,7 +192,7 @@
 						<li>Donec vitae odio quis nisl dapibus malesuada</li>
 					</ul>
 					<p class="btn-md-centrer">
-						<a herf="#" class="btn">Explore</a>
+						<a herf="#" class="btn Btn">Explore</a>
 					</p>
 				</div>
 			</div>
@@ -266,10 +266,6 @@
 	<jsp:include page="view/testimonials.jsp" />
 
 	<jsp:include page="view/footer.jsp" />
-
-	<script
-		src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"
-		type="text/javascript"></script>
-
+	
 </body>
 </html>
