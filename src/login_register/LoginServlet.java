@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
 		RequestDispatcher dispatcher = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://node30258-noithat3s.proen.app.ruk-com.cloud/noithat3s?useSSL=false","root","XKDgaf21326");
+			Connection con = DriverManager.getConnection("jdbc:mysql://remotemysql.com:3306/hPN6rRXT9B?useSSL=false","hPN6rRXT9B","tLUCkWMSe7");
 			PreparedStatement pst = con.prepareStatement("select * from user where email = ? and password = ?");
 			pst.setString(1, uemail);
 			pst.setString(2, upass);

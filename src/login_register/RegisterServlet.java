@@ -48,7 +48,7 @@ public class RegisterServlet extends HttpServlet {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://node30258-noithat3s.proen.app.ruk-com.cloud/noithat3s?useSSL=false","root","XKDgaf21326");
+			con = DriverManager.getConnection("jdbc:mysql://remotemysql.com:3306/hPN6rRXT9B?useSSL=false","hPN6rRXT9B","tLUCkWMSe7");
 			PreparedStatement pst = con.prepareStatement("insert into user(email,username,password) values(?,?,?) ");
 			pst.setString(1, uemail);
 			pst.setString(2, uname);
