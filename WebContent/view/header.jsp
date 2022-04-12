@@ -97,9 +97,6 @@
 						<i class="fa-brands fa-google fa-lg"></i> sign up with google
 					</button>
 					<button type="button" class="btn-form btn -box-sd-effect">
-						<i class="fa-brands fa-linkedin fa-lg"></i> sign up with linkedin
-					</button>
-					<button type="button" class="btn-form btn -box-sd-effect">
 						<i class="fa-brands fa-windows fa-lg"></i> sign up with microsoft
 					</button>
 				</form>
@@ -120,9 +117,6 @@
 					<hr />
 					<button type="button" class="btn-form btn -box-sd-effect">
 						<i class="fa-brands fa-google fa-lg"></i> sign up with google
-					</button>
-					<button type="button" class="btn-form btn -box-sd-effect">
-						<i class="fa-brands fa-linkedin fa-lg"></i> sign up with linkedin
 					</button>
 					<button type="button" class="btn-form btn -box-sd-effect">
 						<i class="fa-brands fa-windows fa-lg"></i> sign up with microsoft

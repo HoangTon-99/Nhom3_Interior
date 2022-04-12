@@ -86,7 +86,14 @@
   z-index: 2;
   right: 0;
 }
-
+@media (max-width: 576px) {
+  .footer-section .sofa-img {
+  position: absolute;
+  top: -120px;
+  z-index: 2;
+  right: 0;
+}
+}
 .footer-section .sofa-img img {
   max-width: 380px;
 }
